@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000304;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000304, 'ace3000304-fitnessinstructoranthony', 12, '2022-05-18 14:24:36') /* Vendor */;
+VALUES (3000304, 'ace3000304-fitnessinstructoranthony', 12, '2022-05-23 03:32:44') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000304,   1,         16) /* ItemType - Creature */
@@ -187,11 +187,12 @@ VALUES (3000304, 4, 45961, -1, 0, 0, False) /* Create Seasoned Explorer Breastpl
      , (3000304, 4, 70209, -1, 0, 0, False) /* Create Seasoned Explorer Shield (70209) for Shop */
      , (3000304, 4, 45958, -1, 0, 0, False) /* Create Seasoned Explorer Baton (45958) for Shop */
      , (3000304, 4, 45906, -1, 0, 0, False) /* Create Seasoned Explorer Compound Bow (45906) for Shop */
-     , (3000304, 4, 45956, -1, 0, 0, False) /* Create Seasoned Explorer Nether Staff (45956) for Shop */;
+     , (3000304, 4, 45956, -1, 0, 0, False) /* Create Seasoned Explorer Nether Staff (45956) for Shop */
+     , (3000304, 4, 70223,  0, 0, 0, False) /* Create Seasoned Explorer Claw (70223) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-05-18T07:24:20.8674202-07:00",
+  "LastModified": "2022-05-22T20:33:01.9549362-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [
     {
