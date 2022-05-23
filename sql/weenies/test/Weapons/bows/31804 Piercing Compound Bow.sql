@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31804;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31804, 'ace31804-piercingcompoundbow', 3, '2022-05-22 08:12:49') /* MissileLauncher */;
+VALUES (31804, 'ace31804-piercingcompoundbow', 3, '2022-05-23 02:24:34') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31804,   1,        256) /* ItemType - MissileWeapon */
@@ -22,6 +22,7 @@ VALUES (31804,   1,        256) /* ItemType - MissileWeapon */
      , (31804,  53,          3) /* PlacementPosition - LeftHand */
      , (31804,  60,        175) /* WeaponRange */
      , (31804,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31804, 105,          1) /* ItemWorkmanship */
      , (31804, 106,        325) /* ItemSpellcraft */
      , (31804, 107,       5000) /* ItemCurMana */
      , (31804, 108,       5000) /* ItemMaxMana */
@@ -63,7 +64,7 @@ VALUES (31804,  6089,      1)  /* Legendary Blood Thirst */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-05-22T01:13:15.1673676-07:00",
+  "LastModified": "2022-05-22T19:23:08.5512724-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [
     {
