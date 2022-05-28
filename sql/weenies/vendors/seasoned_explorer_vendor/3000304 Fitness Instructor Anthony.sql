@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000304;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000304, 'ace3000304-fitnessinstructoranthony', 12, '2022-05-27 11:17:46') /* Vendor */;
+VALUES (3000304, 'ace3000304-fitnessinstructoranthony', 12, '2022-05-28 22:30:17') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000304,   1,         16) /* ItemType - Creature */
@@ -196,7 +196,6 @@ VALUES (3000304, 4, 3000310, -1, 0, 0, False) /* Create  (3000310) for Shop */
      , (3000304, 4, 45954, -1, 0, 0, False) /* Create  (45954) for Shop */
      , (3000304, 4, 45932, -1, 0, 0, False) /* Create  (45932) for Shop */
      , (3000304, 4, 45906, -1, 0, 0, False) /* Create Seasoned Explorer Compound Bow (45906) for Shop */
-     , (3000304, 4, 45936, -1, 0, 0, False) /* Create  (45936) for Shop */
      , (3000304, 4, 45908, -1, 0, 0, False) /* Create  (45908) for Shop */
      , (3000304, 4, 45912, -1, 0, 0, False) /* Create  (45912) for Shop */
      , (3000304, 4, 45930, -1, 0, 0, False) /* Create  (45930) for Shop */
@@ -208,7 +207,7 @@ VALUES (3000304, 4, 3000310, -1, 0, 0, False) /* Create  (3000310) for Shop */
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-05-27T04:18:20.0859431-07:00",
+  "LastModified": "2022-05-28T15:30:42.8848658-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [
     {
