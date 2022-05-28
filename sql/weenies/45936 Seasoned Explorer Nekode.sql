@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45936;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45936, 'ace45936-seasonedexplorernekode', 6, '2022-05-27 10:59:57') /* MeleeWeapon */;
+VALUES (45936, 'ace45936-seasonedexplorernekode', 6, '2022-05-28 12:22:43') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45936,   1,          1) /* ItemType - MeleeWeapon */
@@ -10,7 +10,7 @@ VALUES (45936,   1,          1) /* ItemType - MeleeWeapon */
      , (45936,   8,         80) /* Mass */
      , (45936,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (45936,  16,          1) /* ItemUseable - No */
-     , (45936,  19,          1) /* Value */
+     , (45936,  19,        100) /* Value */
      , (45936,  33,          1) /* Bonded - Bonded */
      , (45936,  44,         44) /* Damage */
      , (45936,  45,          3) /* DamageType - Slash, Pierce */
@@ -29,7 +29,7 @@ VALUES (45936,   1,          1) /* ItemType - MeleeWeapon */
      , (45936, 151,          2) /* HookType - Wall */
      , (45936, 158,          2) /* WieldRequirements - RawSkill */
      , (45936, 159,         44) /* WieldSkillType - HeavyWeapons */
-     , (45936, 160,          1) /* WieldDifficulty */
+     , (45936, 160,        325) /* WieldDifficulty */
      , (45936, 263,          1) /* ResistanceModifierType */
      , (45936, 353,          1) /* WeaponType - Unarmed */;
 
@@ -64,13 +64,21 @@ VALUES (45936,   1,   33555996) /* Setup */
      , (45936,   8,  100670029) /* Icon */
      , (45936,  22,  872415275) /* PhysicsEffectTable */;
 
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (45936,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (45936,  1605,      2)  /* Aura of Defender Self VI */
+     , (45936,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (45936,  1627,      2)  /* Aura of Swift Killer Self VI */
+     , (45936,  2566,      2)  /* Minor Heavy Weapon Aptitude */
+     , (45936,  5884,      2)  /* Minor Dual Wield Aptitude */;
+
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-05-27T03:49:07.9683551-07:00",
-  "ModifiedBy": "pourman",
+  "LastModified": "2020-01-18T16:10:09.4850039-08:00",
+  "ModifiedBy": "FireChimp",
   "Changelog": [
     {
-      "created": "0001-01-01T00:00:00",
+      "created": "2020-01-18T16:57:20.3989803-08:00",
       "author": "FireChimp",
       "comment": "cloned from amateur explorer nekode. added ivoryabl, and attuned, changed palette to green, add spells"
     }
