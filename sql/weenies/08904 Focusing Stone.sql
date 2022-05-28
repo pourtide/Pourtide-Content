@@ -11,7 +11,7 @@ VALUES (8904,   1,      32768) /* ItemType - Caster */
      , (8904,   9,   16777216) /* ValidLocations - Held */
      , (8904,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (8904,  18,          1) /* UiEffects - Magical */
-     , (8904,  19,          250) /* Value */
+     , (8904,  19,          2) /* Value */
      , (8904,  33,          1) /* Bonded - Bonded */
      , (8904,  46,        512) /* DefaultCombatStyle - Magic */
      , (8904,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */

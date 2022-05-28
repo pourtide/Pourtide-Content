@@ -9,7 +9,7 @@ VALUES (3000330,   1,       2048) /* ItemType - Gem */
      , (3000330,  11,        100) /* MaxStackSize */
      , (3000330,  12,          1) /* StackSize */
      , (3000330,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (3000330,  19,         25) /* Value */
+     , (3000330,  19,          1) /* Value */
      , (3000330,  53,        101) /* PlacementPosition - Resting */
      , (3000330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3000330,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */;
