@@ -330,5 +330,9 @@ VALUES (0x77D64074, 42737, 0x7D64010E, 86.6307, 139.512, 12.005, 0.170397, 0, 0,
 /* @teleloc 0x7D64010E [86.630699 139.511993 12.005000] 0.170397 0.000000 0.000000 0.985376 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D64075, 3000304, 0x7D640015, 60.33699, 106.2015, 12.005, -0.667992, 0, 0, -0.744169, False, '2022-05-20 19:55:12'); /* Fitness Instructor Anthony */
-/* @teleloc 0x7D640015 [60.336990 106.201500 12.005000] -0.667992 0.000000 0.000000 -0.744169 */
+VALUES (0x77D64075, 3000304, 0x7D640015, 60.337, 106.201, 12.005, -0.667992, 0, 0, -0.744169, False, '2022-05-20 19:55:12'); /* Fitness Instructor Anthony */
+/* @teleloc 0x7D640015 [60.337002 106.200996 12.005000] -0.667992 0.000000 0.000000 -0.744169 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77D64076, 42819, 0x7D640015, 58.1173, 100.79, 11.937, 0.947623, 0, 0, 0.319392, False, '2022-05-28 15:19:21'); /* Portal to Arwic */
+/* @teleloc 0x7D640015 [58.117298 100.790001 11.937000] 0.947623 0.000000 0.000000 0.319392 */
