@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000311;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-05-25 07:25:25') /* Vendor */;
+VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-05-29 14:02:05') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000311,   1,         16) /* ItemType - Creature */
@@ -176,11 +176,13 @@ VALUES (3000311, 4, 24179, -1, 0, 0, False) /* Create Heart of the Innocent (241
      , (3000311, 4, 2029104, -1, 0, 0, False) /* Create  (2029104) for Shop */
      , (3000311, 4, 2032270, -1, 0, 0, False) /* Create  (2032270) for Shop */
      , (3000311, 4, 2029106, -1, 0, 0, False) /* Create  (2029106) for Shop */
-     , (3000311, 4, 2032271, -1, 0, 0, False) /* Create  (2032271) for Shop */;
+     , (3000311, 4, 2032271, -1, 0, 0, False) /* Create  (2032271) for Shop */
+     , (3000311, 4, 22449, -1, 0, 0, False) /* Create Plentiful Healing Kit (22449) for Shop */
+     , (3000311, 4, 3000360, -1, 0, 0, False) /* Create  (3000360) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-05-25T00:20:53.8089707-07:00",
+  "LastModified": "2022-05-29T07:02:47.4565646-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [],
   "UserChangeSummary": " Created Fitness Instructor Anthony. Added Jeweler's Saw Blade (41402) Added Jeweler's Saw Frame (41403) Added Lapping Plate (41400) Added Abrasive Polish (41397) Added Lense Frame(41393) Added Unfinished Lense(41395) to createList. Added heritage int with value (1). Added gender int with value (1).",
