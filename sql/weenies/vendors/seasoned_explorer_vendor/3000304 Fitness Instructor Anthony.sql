@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000304;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000304, 'ace3000304-fitnessinstructoranthony', 12, '2022-05-28 22:30:17') /* Vendor */;
+VALUES (3000304, 'ace3000304-fitnessinstructoranthony', 12, '2022-05-30 18:24:47') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000304,   1,         16) /* ItemType - Creature */
@@ -191,8 +191,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I absolutely refuse to be like most human-beings in our society (a common man), because I most certainly am a leader, a visionary, a pioneer, an intellect, an explorer, a researcher, a lover, a doer, a go getter, a winner, a human-being who is grateful, positive & powerful, and much, much, much more!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3000304, 4, 3000310, -1, 0, 0, False) /* Create  (3000310) for Shop */
-     , (3000304, 4, 45958, -1, 0, 0, False) /* Create Seasoned Explorer Baton (45958) for Shop */
+VALUES (3000304, 4, 45958, -1, 0, 0, False) /* Create Seasoned Explorer Baton (45958) for Shop */
      , (3000304, 4, 45954, -1, 0, 0, False) /* Create  (45954) for Shop */
      , (3000304, 4, 45932, -1, 0, 0, False) /* Create  (45932) for Shop */
      , (3000304, 4, 45906, -1, 0, 0, False) /* Create Seasoned Explorer Compound Bow (45906) for Shop */
@@ -207,7 +206,7 @@ VALUES (3000304, 4, 3000310, -1, 0, 0, False) /* Create  (3000310) for Shop */
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-05-28T15:30:42.8848658-07:00",
+  "LastModified": "2022-05-30T11:14:47.3364563-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [
     {
