@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3925;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3925, 'crafterivoryaluvian', 10, '2022-05-30 04:12:07') /* Creature */;
+VALUES (3925, 'crafterivoryaluvian', 10, '2022-05-31 17:09:51') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3925,   1,         16) /* ItemType - Creature */
@@ -435,7 +435,7 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'A Tusker Slave tusk. You can''t use these on the Island of the Tuskers. It''s a good thing you came to me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 15000000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 7500, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 2624 /* Trade Note (5,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,   5 /* Motion */, 1, 1, 318767229 /* BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  10 /* Tell */, 0, 1, NULL, 'These tusks are exceptionally useful since they are hollow.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -700,8 +700,8 @@ VALUES (3925, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-05-29T21:12:54.3763778-07:00",
-  "ModifiedBy": "pourman",
+  "LastModified": "2021-04-25T16:59:07.6339-07:00",
+  "ModifiedBy": "neutropia",
   "Changelog": [
     {
       "created": "0001-01-01T00:00:00",
@@ -709,7 +709,7 @@ VALUES (3925, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
       "comment": "Ivory Crafter\nUpdating Acid Axe (1439) hand-in to EoR (Learning from Experience). No PCAP to verify against.\n\nUpdating reward for Ice Tachi Hand-In\n\nPCAP-Part-3\\PCAP Part 3\\PKT-Files\\pkt_2017-1-20_1484933919_log.pcap [Line 40226]\nAdded Delay of 1 to actions above to slow down rapid fire responses.\n\nUpdating to handle give of Brass Knuckles (28215)\nPCAP: PCAP Part 1\\gdrive (tfarley)\\Thige\\Hamud's Demise\\Hamud's Demise Quest Start.pcap [Start Line 80]\n\nUpdating 7817 Hand-In to EoR Rewards (Learning From Experience)\nPCAP Part 1\\JDW715_Mithril_Branor_Morningthaw_Dereth_Farewell_Tour\\pkt_2017-1-26_1485501667_log.pcap [Starts Line 20046]"
     },
     {
-      "created": "0001-01-01T00:00:00",
+      "created": "2021-04-27T10:17:36.5314622-07:00",
       "author": "neutropia",
       "comment": "Adding emotes for Monouga Ribs"
     }
