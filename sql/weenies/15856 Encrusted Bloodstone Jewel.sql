@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15856;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (15856, 'jewelbloodyhigh', 1, '2022-05-30 05:09:08') /* Generic */;
+VALUES (15856, 'jewelbloodyhigh', 1, '2022-06-01 06:32:51') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15856,   1,          8) /* ItemType - Jewelry */
@@ -11,13 +11,13 @@ VALUES (15856,   1,          8) /* ItemType - Jewelry */
      , (15856,   9,      32768) /* ValidLocations - NeckWear */
      , (15856,  16,          1) /* ItemUseable - No */
      , (15856,  18,          1) /* UiEffects - Magical */
-     , (15856,  19,          1) /* Value */
+     , (15856,  19,       2000) /* Value */
      , (15856,  33,          1) /* Bonded - Bonded */
      , (15856,  36,       9999) /* ResistMagic */
      , (15856,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15856, 106,        300) /* ItemSpellcraft */
-     , (15856, 107,        190) /* ItemCurMana */
-     , (15856, 108,        230) /* ItemMaxMana */
+     , (15856, 107,       2000) /* ItemCurMana */
+     , (15856, 108,       2000) /* ItemMaxMana */
      , (15856, 109,        170) /* ItemDifficulty */
      , (15856, 114,          1) /* Attuned - Attuned */
      , (15856, 150,        103) /* HookPlacement - Hook */
@@ -50,7 +50,7 @@ VALUES (15856,  2666,      2)  /* Essence Glutton */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-05-29T22:10:09.4467008-07:00",
+  "LastModified": "2022-05-31T23:33:40.3716449-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [],
   "UserChangeSummary": "test",

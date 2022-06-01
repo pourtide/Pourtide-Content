@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000311;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-05-31 17:09:05') /* Vendor */;
+VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-01 06:33:48') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000311,   1,         16) /* ItemType - Creature */
@@ -185,17 +185,17 @@ VALUES (3000311, 4, 24179, -1, 0, 0, False) /* Create Heart of the Innocent (241
      , (3000311, 4, 15448, -1, 0, 0, False) /* Create Deadly Hollow Mace (15448) for Shop */
      , (3000311, 4, 41712, -1, 0, 0, False) /* Create Deadly Hollow Two Handed Spear (41712) for Shop */
      , (3000311, 4, 23356, -1, 0, 0, False) /* Create Sanguinary Aegis (23356) for Shop */
-     , (3000311, 4, 15856, -1, 0, 0, False) /* Create Encrusted Bloodstone Jewel (15856) for Shop */
      , (3000311, 4, 21360, -1, 0, 0, False) /* Create Deadly Hollow Katar (21360) for Shop */
      , (3000311, 4, 21361, -1, 0, 0, False) /* Create Deadly Hollow Dagger (21361) for Shop */
      , (3000311, 4, 15450, -1, 0, 0, False) /* Create Deadly Hollow Sword (15450) for Shop */
      , (3000311, 4, 21362, -1, 0, 0, False) /* Create Deadly Hollow Staff (21362) for Shop */
      , (3000311, 4, 21961, -1, 0, 0, False) /* Create Hollow Bow (21961) for Shop */
-     , (3000311, 4, 21998, -1, 0, 0, False) /* Create Bundle of Deadly Chorizite Arrowheads (21998) for Shop */;
+     , (3000311, 4, 21998, -1, 0, 0, False) /* Create Bundle of Deadly Chorizite Arrowheads (21998) for Shop */
+     , (3000311, 4, 15856, -1, 0, 0, False) /* Create Encrusted Bloodstone Jewel (15856) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-05-31T10:09:54.1946482-07:00",
+  "LastModified": "2022-05-31T23:34:42.8032354-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [],
   "UserChangeSummary": " Created Fitness Instructor Anthony. Added Jeweler's Saw Blade (41402) Added Jeweler's Saw Frame (41403) Added Lapping Plate (41400) Added Abrasive Polish (41397) Added Lense Frame(41393) Added Unfinished Lense(41395) to createList. Added heritage int with value (1). Added gender int with value (1).",
