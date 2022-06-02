@@ -185,11 +185,3 @@ VALUES (0x733D9080, 28704, 0x33D90013, 63.7038, 66.4588, 52.005, 0.998529, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733D9081, 30265, 0x33D90004, 10.7145, 78.0069, 52.005, 0.845894, 0, 0, 0.53335,  True, '2021-11-01 00:00:00'); /* Fabian Strinjelli */
 /* @teleloc 0x33D90004 [10.714500 78.006897 52.005001] 0.845894 0.000000 0.000000 0.533350 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733D9082, 3000304, 0x33D90014, 48.6687, 87.0417, 52.005, 0.992014, 0, 0, -0.12613, False, '2022-05-28 15:15:43'); /* Fitness Instructor Anthony */
-/* @teleloc 0x33D90014 [48.668701 87.041702 52.005001] 0.992014 0.000000 0.000000 -0.126130 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733D9083, 42819, 0x33D9000C, 42.5648, 89.0434, 51.937, -0.942696, 0, 0, 0.333653, False, '2022-05-28 15:16:22'); /* Portal to Arwic */
-/* @teleloc 0x33D9000C [42.564800 89.043404 51.937000] -0.942696 0.000000 0.000000 0.333653 */

@@ -348,5 +348,13 @@ VALUES (0x701C906A, 28708, 0x01C901D7, 70.5078, -83.643, -6.063, 0.008296, 0, 0,
 /* @teleloc 0x01C901D7 [70.507797 -83.642998 -6.063000] 0.008296 0.000000 0.000000 0.999966 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C906B, 43001, 0x01C901D1, 59.6902, -83.41511, -6.063, 0.04046, 0, 0, -0.999181, False, '2022-05-29 22:34:03'); /* Fort Tethana Portal */
-/* @teleloc 0x01C901D1 [59.690201 -83.415108 -6.063000] 0.040460 0.000000 0.000000 -0.999181 */
+VALUES (0x701C906B, 43001, 0x01C901D1, 59.6902, -83.4151, -6.063, 0.04046, 0, 0, -0.999181, False, '2022-05-29 22:34:03'); /* Fort Tethana Portal */
+/* @teleloc 0x01C901D1 [59.690201 -83.415100 -6.063000] 0.040460 0.000000 0.000000 -0.999181 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701C906C, 42835, 0x01C90127, 116.976, -189.935, -72.063, -0.712566, 0, 0, 0.701606, False, '2022-06-02 14:52:00'); /* Portal to Sanamar */
+/* @teleloc 0x01C90127 [116.975998 -189.934998 -72.063004] -0.712566 0.000000 0.000000 0.701606 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701C906D, 42839, 0x01C90125, 110.0732, -196.9763, -72.063, 0.014063, 0, 0, -0.999901, False, '2022-06-02 14:53:23'); /* Portal to Eastwatch */
+/* @teleloc 0x01C90125 [110.073196 -196.976303 -72.063004] 0.014063 0.000000 0.000000 -0.999901 */

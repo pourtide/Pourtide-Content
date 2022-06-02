@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000311;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-02 12:39:49') /* Vendor */;
+VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-02 21:43:31') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000311,   1,         16) /* ItemType - Creature */
@@ -163,11 +163,14 @@ VALUES (3000311, 2, 25703,  0, 93, 1, False) /* Create Dapper Suit (25703) for W
      , (3000311, 4, 41482, -1, 0, 0, False) /* Create Eye of the Remorseless (41482) for Shop */
      , (3000311, 4, 41490, -1, 0, 0, False) /* Create Master of the Focused Eye (41490) for Shop */
      , (3000311, 4, 43167, -1, 0, 0, False) /* Create Jack of All Trades (43167) for Shop */
-     , (3000311, 4, 30246, -1, 0, 0, False) /* Create Artist's Crystal (30246) for Shop */;
+     , (3000311, 4, 24179, -1, 0, 0, False) /* Create Heart of the Innocent (24179) for Shop */
+     , (3000311, 4, 30246, -1, 0, 0, False) /* Create Artist's Crystal (30246) for Shop */
+     , (3000311, 4,  8904, -1, 0, 0, False) /* Create Focusing Stone (8904) for Shop */
+     , (3000311, 4, 35593, -1, 0, 0, False) /* Create  (35593) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-02T05:40:14.8648779-07:00",
+  "LastModified": "2022-06-02T14:43:51.5650422-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [
     {

@@ -301,7 +301,7 @@ VALUES (0x7A9B4053, 27740, 0xA9B4014D, 139.637, 8.1292, 97.005, -0.850506, 0, 0,
 /* @teleloc 0xA9B4014D [139.636993 8.129200 97.004997] -0.850506 0.000000 0.000000 -0.525965 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B405B, 11960, 0xA9B40000, 27.325, 137.487, 66.5, -0.793566, 0, 0, -0.608485, False, '2022-03-19 04:04:39'); /* Destroyed Portal to Redspire */
+VALUES (0x7A9B405B, 11960, 0xA9B40000, 27.325, 137.487, 66.5, -0.793566, 0, 0, -0.608485, False, '2022-03-19 04:04:39'); /* Portal to Redspire */
 /* @teleloc 0xA9B40000 [27.325001 137.487000 66.500000] -0.793566 0.000000 0.000000 -0.608485 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -423,11 +423,3 @@ VALUES (0x7A9B46AB, 32085, 0xA9B40172, 159.717, 5.48342, 94.005, 0.899383, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B46AC, 42736, 0xA9B4012A, 61.1951, 135.937, 66.005, -0.730577, 0, 0, -0.68283,  True, '2022-03-19 04:04:39'); /* Tailor's Apprentice */
 /* @teleloc 0xA9B4012A [61.195099 135.936996 66.004997] -0.730577 0.000000 0.000000 -0.682830 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B46AD, 3000304, 0xA9B40022, 98.7587, 30.5114, 94.005, 0.062255, 0, 0, 0.99806, False, '2022-05-20 19:53:35'); /* Fitness Instructor Anthony */
-/* @teleloc 0xA9B40022 [98.758698 30.511400 94.004997] 0.062255 0.000000 0.000000 0.998060 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B46AE, 42819, 0xA9B40021, 101.933, 23.643, 93.937, 0.718545, 0, 0, 0.69548, False, '2022-05-28 15:16:52'); /* Portal to Arwic */
-/* @teleloc 0xA9B40021 [101.932999 23.643000 93.936996] 0.718545 0.000000 0.000000 0.695480 */
