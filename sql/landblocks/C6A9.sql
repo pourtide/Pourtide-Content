@@ -464,9 +464,9 @@ VALUES (0x7C6A96A6, 39788, 0xC6A90008, 23.5546, 168.419, 22, -0.363977, 0, 0, 0.
 /* @teleloc 0xC6A90008 [23.554600 168.419006 22.000000] -0.363977 0.000000 0.000000 0.931408 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A96A7, 3000311, 0xC6A9001C, 77.6067, 94.8385, 42.005, -0.036806, 0, 0, 0.999322, False, '2022-05-21 04:17:44'); /* Quality of Life Vendor */
-/* @teleloc 0xC6A9001C [77.606697 94.838501 42.005001] -0.036806 0.000000 0.000000 0.999322 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6A96A8, 3000381, 0xC6A9001C, 75.6343, 95.0795, 42.005, 0.020323, 0, 0, 0.999794, False, '2022-05-31 22:20:21'); /* Pourman Messenger */
 /* @teleloc 0xC6A9001C [75.634300 95.079498 42.005001] 0.020323 0.000000 0.000000 0.999794 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A96A9, 3000311, 0xC6A9001C, 77.44954, 95.05939, 42.005, 0.012987, 0, 0, -0.999916, False, '2022-06-02 02:40:13'); /* Quality of Life Vendor */
+/* @teleloc 0xC6A9001C [77.449539 95.059387 42.005001] 0.012987 0.000000 0.000000 -0.999916 */

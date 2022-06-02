@@ -35,7 +35,7 @@ VALUES (1910486,  37,       1) /* BuyPrice */
      , (1910486,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1910486,   1, 'Advan') /* Name */
+VALUES (1910486,   1, 'Quality of Life Vendor') /* Name */
      , (1910486,   5, 'Most Generous Man') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
