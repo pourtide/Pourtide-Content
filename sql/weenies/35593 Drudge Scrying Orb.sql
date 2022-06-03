@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35593;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35593, 'ace35593-drudgescryingorb', 35, '2022-06-02 21:43:31') /* Caster */;
+VALUES (35593, 'ace35593-drudgescryingorb', 35, '2022-06-03 18:55:21') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35593,   1,      32768) /* ItemType - Caster */
@@ -20,12 +20,12 @@ VALUES (35593,   1,      32768) /* ItemType - Caster */
      , (35593, 106,        325) /* ItemSpellcraft */
      , (35593, 107,       1000) /* ItemCurMana */
      , (35593, 108,       1000) /* ItemMaxMana */
-     , (35593, 109,        280) /* ItemDifficulty */
+     , (35593, 109,          1) /* ItemDifficulty */
      , (35593, 114,          0) /* Attuned - Normal */
      , (35593, 151,          6) /* HookType - Wall, Ceiling */
      , (35593, 158,          1) /* WieldRequirements - Skill */
      , (35593, 159,         31) /* WieldSkillType - CreatureEnchantment */
-     , (35593, 160,        355) /* WieldDifficulty */;
+     , (35593, 160,          1) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35593,  11, True ) /* IgnoreCollisions */
@@ -66,7 +66,7 @@ VALUES (35593,  2101,      2)  /* Aura of Cragstone's Will */
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-02T14:43:16.9846413-07:00",
+  "LastModified": "2022-06-03T11:56:15.2217581-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [
     {
