@@ -356,5 +356,13 @@ VALUES (0x701C906C, 42835, 0x01C90127, 116.976, -189.935, -72.063, -0.712566, 0,
 /* @teleloc 0x01C90127 [116.975998 -189.934998 -72.063004] -0.712566 0.000000 0.000000 0.701606 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C906D, 42839, 0x01C90125, 110.0732, -196.9763, -72.063, 0.014063, 0, 0, -0.999901, False, '2022-06-02 14:53:23'); /* Portal to Eastwatch */
-/* @teleloc 0x01C90125 [110.073196 -196.976303 -72.063004] 0.014063 0.000000 0.000000 -0.999901 */
+VALUES (0x701C906D, 42839, 0x01C90125, 110.073, -196.976, -72.063, 0.014063, 0, 0, -0.999901, False, '2022-06-02 14:53:23'); /* Portal to Eastwatch */
+/* @teleloc 0x01C90125 [110.072998 -196.975998 -72.063004] 0.014063 0.000000 0.000000 -0.999901 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701C906E,  7317, 0x01C9011C, 103.643, -184.985, -72.063, 0.69213, 0, 0, 0.721773, False, '2022-06-04 14:38:18'); /* Hills Citadel Portal */
+/* @teleloc 0x01C9011C [103.642998 -184.985001 -72.063004] 0.692130 0.000000 0.000000 0.721773 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701C906F, 3000386, 0x01C9010A, 76.357, -184.9939, -72.063, -0.715673, 0, 0, 0.698436, False, '2022-06-04 14:42:24'); /* Fort Aimaru Portal  */
+/* @teleloc 0x01C9010A [76.357002 -184.993896 -72.063004] -0.715673 0.000000 0.000000 0.698436 */

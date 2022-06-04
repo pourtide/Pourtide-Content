@@ -13,5 +13,9 @@ VALUES (0x7E355002, 27244, 0xE3550000, 63.5061, 58.4413, 19.205, -0.678671, 0, 0
 /* @teleloc 0xE3550000 [63.506100 58.441299 19.205000] -0.678671 0.000000 0.000000 0.734442 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E355003, 3000304, 0xE3550013, 57.31697, 66.01849, 4.005, -0.994337, 0, 0, 0.106271, False, '2022-06-02 09:08:06'); /* Fitness Instructor Anthony */
-/* @teleloc 0xE3550013 [57.316971 66.018494 4.005000] -0.994337 0.000000 0.000000 0.106271 */
+VALUES (0x7E355003, 3000304, 0xE3550013, 57.317, 66.0185, 4.005, -0.994337, 0, 0, 0.106271, False, '2022-06-02 09:08:06'); /* Fitness Instructor Anthony */
+/* @teleloc 0xE3550013 [57.317001 66.018501 4.005000] -0.994337 0.000000 0.000000 0.106271 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E355004,  1212, 0xE3550013, 59.1259, 66.2493, 4.055, 0, 0, 0, -1, False, '2022-06-03 11:50:26'); /* Old Sign */
+/* @teleloc 0xE3550013 [59.125900 66.249298 4.055000] 0.000000 0.000000 0.000000 -1.000000 */
