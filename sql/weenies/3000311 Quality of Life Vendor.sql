@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000311;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-02 21:43:31') /* Vendor */;
+VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-04 19:45:56') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000311,   1,         16) /* ItemType - Creature */
@@ -111,16 +111,7 @@ VALUES (3000311, 2, 25703,  0, 93, 1, False) /* Create Dapper Suit (25703) for W
      , (3000311, 4, 22449, -1, 0, 0, False) /* Create Plentiful Healing Kit (22449) for Shop */
      , (3000311, 4, 3000360, -1, 0, 0, False) /* Create  (3000360) for Shop */
      , (3000311, 4, 34257, -1, 0, 0, False) /* Create Asheron's Lesser Benediction (34257) for Shop */
-     , (3000311, 4, 15449, -1, 0, 0, False) /* Create Deadly Hollow Spear (15449) for Shop */
-     , (3000311, 4, 15447, -1, 0, 0, False) /* Create Deadly Hollow Axe (15447) for Shop */
-     , (3000311, 4, 15448, -1, 0, 0, False) /* Create Deadly Hollow Mace (15448) for Shop */
-     , (3000311, 4, 41712, -1, 0, 0, False) /* Create Deadly Hollow Two Handed Spear (41712) for Shop */
      , (3000311, 4, 23356, -1, 0, 0, False) /* Create Sanguinary Aegis (23356) for Shop */
-     , (3000311, 4, 21360, -1, 0, 0, False) /* Create Deadly Hollow Katar (21360) for Shop */
-     , (3000311, 4, 21361, -1, 0, 0, False) /* Create Deadly Hollow Dagger (21361) for Shop */
-     , (3000311, 4, 15450, -1, 0, 0, False) /* Create Deadly Hollow Sword (15450) for Shop */
-     , (3000311, 4, 21362, -1, 0, 0, False) /* Create Deadly Hollow Staff (21362) for Shop */
-     , (3000311, 4, 21961, -1, 0, 0, False) /* Create Hollow Bow (21961) for Shop */
      , (3000311, 4, 21998, -1, 0, 0, False) /* Create Bundle of Deadly Chorizite Arrowheads (21998) for Shop */
      , (3000311, 4, 15856, -1, 0, 0, False) /* Create Encrusted Bloodstone Jewel (15856) for Shop */
      , (3000311, 4, 29266, -1, 0, 0, False) /* Create Ciandra's Fortune (29266) for Shop */
@@ -163,14 +154,22 @@ VALUES (3000311, 2, 25703,  0, 93, 1, False) /* Create Dapper Suit (25703) for W
      , (3000311, 4, 41482, -1, 0, 0, False) /* Create Eye of the Remorseless (41482) for Shop */
      , (3000311, 4, 41490, -1, 0, 0, False) /* Create Master of the Focused Eye (41490) for Shop */
      , (3000311, 4, 43167, -1, 0, 0, False) /* Create Jack of All Trades (43167) for Shop */
-     , (3000311, 4, 24179, -1, 0, 0, False) /* Create Heart of the Innocent (24179) for Shop */
      , (3000311, 4, 30246, -1, 0, 0, False) /* Create Artist's Crystal (30246) for Shop */
      , (3000311, 4,  8904, -1, 0, 0, False) /* Create Focusing Stone (8904) for Shop */
-     , (3000311, 4, 35593, -1, 0, 0, False) /* Create  (35593) for Shop */;
+     , (3000311, 4, 35593, -1, 0, 0, False) /* Create  (35593) for Shop */
+     , (3000311, 4, 21964, -1, 0, 0, False) /* Create Phantom Bow (21964) for Shop */
+     , (3000311, 4, 21353, -1, 0, 0, False) /* Create Phantom Axe (21353) for Shop */
+     , (3000311, 4, 21354, -1, 0, 0, False) /* Create Phantom Dagger (21354) for Shop */
+     , (3000311, 4, 21355, -1, 0, 0, False) /* Create Phantom Katar (21355) for Shop */
+     , (3000311, 4, 21356, -1, 0, 0, False) /* Create Phantom Mace (21356) for Shop */
+     , (3000311, 4, 21357, -1, 0, 0, False) /* Create Phantom Staff (21357) for Shop */
+     , (3000311, 4, 21358, -1, 0, 0, False) /* Create Phantom Spear (21358) for Shop */
+     , (3000311, 4, 41708, -1, 0, 0, False) /* Create Phantom Two Handed Spear (41708) for Shop */
+     , (3000311, 4, 21359, -1, 0, 0, False) /* Create Phantom Sword (21359) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-02T14:43:51.5650422-07:00",
+  "LastModified": "2022-06-04T12:46:57.7832242-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [
     {
