@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000311;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-09 16:20:13') /* Vendor */;
+VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-09 17:03:43') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000311,   1,         16) /* ItemType - Creature */
@@ -101,6 +101,13 @@ VALUES (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
      , (3000311, 4, 36564, -1, 0, 0, False) /* Create  (36564) for Shop */
      , (3000311, 4, 36567, -1, 0, 0, False) /* Create  (36567) for Shop */
      , (3000311, 4, 36565, -1, 0, 0, False) /* Create  (36565) for Shop */
+     , (3000311, 4, 36619, -1, 0, 0, False) /* Create Foolproof Aquamarine (36619) for Shop */
+     , (3000311, 4, 36624, -1, 0, 0, False) /* Create  (36624) for Shop */
+     , (3000311, 4, 36626, -1, 0, 0, False) /* Create  (36626) for Shop */
+     , (3000311, 4, 36625, -1, 0, 0, False) /* Create  (36625) for Shop */
+     , (3000311, 4, 36620, -1, 0, 0, False) /* Create  (36620) for Shop */
+     , (3000311, 4, 36628, -1, 0, 0, False) /* Create  (36628) for Shop */
+     , (3000311, 4, 36622, -1, 0, 0, False) /* Create  (36622) for Shop */
      , (3000311, 4, 36621, -1, 0, 0, False) /* Create  (36621) for Shop */
      , (3000311, 4, 36623, -1, 0, 0, False) /* Create  (36623) for Shop */
      , (3000311, 4, 36627, -1, 0, 0, False) /* Create  (36627) for Shop */
@@ -175,12 +182,11 @@ VALUES (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
      , (3000311, 4,  7571, -1, 0, 0, False) /* Create Hollow Staff (7571) for Shop */
      , (3000311, 4,  7573, -1, 0, 0, False) /* Create Hollow Spear (7573) for Shop */
      , (3000311, 4,  7575, -1, 0, 0, False) /* Create Hollow Sword (7575) for Shop */
-     , (3000311, 4, 21961, -1, 0, 0, False) /* Create Hollow Bow (21961) for Shop */
-     , (3000311, 4, 36619, -1, 0, 0, False) /* Create Foolproof Aquamarine (36619) for Shop */;
+     , (3000311, 4, 21961, -1, 0, 0, False) /* Create Hollow Bow (21961) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-09T11:17:46.6876187-05:00",
+  "LastModified": "2022-06-09T12:03:10.5896524-05:00",
   "ModifiedBy": "brickmeout",
   "Changelog": [
     {

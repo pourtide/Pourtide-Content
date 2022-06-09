@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4100252;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4100252, 'ace4100252-lifestoned', 35, '2022-06-08 23:48:39') /* Caster */;
+VALUES (4100252, 'ace4100252-lifestoned', 35, '2022-06-09 16:31:59') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4100252,   1,      32768) /* ItemType - Caster */
@@ -28,7 +28,7 @@ VALUES (4100252,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4100252,  29,       1) /* WeaponDefense */
-     , (4100252,  39, 0.30000001192092896) /* DefaultScale */
+     , (4100252,  39, 0.15000000596046448) /* DefaultScale */
      , (4100252, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -46,7 +46,7 @@ VALUES (4100252,   1,   33555182) /* Setup */
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-08T14:32:04.1191843-05:00",
+  "LastModified": "2022-06-09T10:46:57.5142562-05:00",
   "ModifiedBy": "brickmeout",
   "Changelog": [],
   "UserChangeSummary": "lifestone wand",

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4100253;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4100253, 'ace4100253-darkbeat', 10, '2022-06-08 23:48:39') /* Creature */;
+VALUES (4100253, 'ace4100253-darkbeat', 10, '2022-06-09 17:29:45') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4100253,   1,         16) /* ItemType - Creature */
@@ -93,20 +93,21 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  14 /* CastSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2018 /* Tormenter of Flesh */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  16 /* WorldBroadcast */, 0, 1, NULL, 'Die in a Fire.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  1,  16 /* WorldBroadcast */, 0, 1, NULL, 'Darkbeat says, "Die in a Fire."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Die in a Fire.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4100253, 2,  6046,  1, 39, 0.99, False) /* Create Amuli Coat (6046) for Wield */
-     , (4100253, 2,  6047,  1, 39, 0.99, False) /* Create Amuli Leggings (6047) for Wield */
-     , (4100253, 2,   107,  1, 39, 0.99, False) /* Create Sollerets (107) for Wield */
-     , (4100253, 2,    57,  1, 39, 0.99, False) /* Create Platemail Gauntlets (57) for Wield */
-     , (4100253, 2, 30881,  1, 39, 0.99, False) /* Create Salvager's Helm (30881) for Wield */
+VALUES (4100253, 2,  6046,  1, 93, 0.5, False) /* Create Amuli Coat (6046) for Wield */
+     , (4100253, 2,  6047,  1, 93, 0.762, False) /* Create Amuli Leggings (6047) for Wield */
+     , (4100253, 2,   107,  1, 93, 0, False) /* Create Sollerets (107) for Wield */
+     , (4100253, 2,    57,  1, 93, 0, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (4100253, 2, 30881,  1, 93, 0, False) /* Create Salvager's Helm (30881) for Wield */
      , (4100253, 2, 24200,  1, 0, 0, False) /* Create Weeping Claw (24200) for Wield */
      , (4100253, 2, 23356,  1, 0, 0, False) /* Create Sanguinary Aegis (23356) for Wield */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-08T18:42:22.8244376-05:00",
+  "LastModified": "2022-06-09T12:30:25.1305883-05:00",
   "ModifiedBy": "brickmeout",
   "Changelog": [],
   "UserChangeSummary": "darkbeat npc",

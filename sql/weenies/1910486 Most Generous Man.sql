@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1910486;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1910486, 'ace1910486-advan', 12, '2022-05-22 08:06:39') /* Vendor */;
+VALUES (1910486, 'ace1910486-mostgenerousman', 12, '2022-06-09 17:03:43') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1910486,   1,         16) /* ItemType - Creature */
@@ -35,7 +35,7 @@ VALUES (1910486,  37,       1) /* BuyPrice */
      , (1910486,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1910486,   1, 'Quality of Life Vendor') /* Name */
+VALUES (1910486,   1, 'Most Generous Man') /* Name */
      , (1910486,   5, 'Most Generous Man') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -220,14 +220,14 @@ VALUES (1910486, 2, 25703,  0, 93, 1, False) /* Create Dapper Suit (25703) for W
      , (1910486, 4, 1910598, -1, 0, 0, False) /* Create  (1910598) for Shop */
      , (1910486, 4, 1910599, -1, 0, 0, False) /* Create  (1910599) for Shop */
      , (1910486, 4, 1910600, -1, 0, 0, False) /* Create  (1910600) for Shop */
-     , (1910486, 4, 1910601, -1, 0, 0, False) /* Create  (1910601) for Shop */
      , (1910486, 4, 31804,  0, 0, 0, False) /* Create Piercing Compound Bow (31804) for Shop */
+     , (1910486, 4, 1910601, -1, 0, 0, False) /* Create  (1910601) for Shop */
      , (1910486, 4, 31809,  0, 0, 0, False) /* Create Fire Compound Crossbow (31809) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-05-22T01:07:24.0889954-07:00",
-  "ModifiedBy": "pourman",
+  "LastModified": "2022-06-09T11:49:38.4331536-05:00",
+  "ModifiedBy": "brickmeout",
   "Changelog": [
     {
       "created": "0001-01-01T00:00:00",

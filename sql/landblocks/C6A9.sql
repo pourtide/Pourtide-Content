@@ -472,9 +472,9 @@ VALUES (0x7C6A96A9, 3000311, 0xC6A9001C, 77.4495, 95.0594, 42.005, 0.012987, 0, 
 /* @teleloc 0xC6A9001C [77.449501 95.059402 42.005001] 0.012987 0.000000 0.000000 -0.999916 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A96AA, 1910486, 0xC6A9001C, 74.0706, 95.2461, 42.005, -0.057536, 0, 0, 0.998344, False, '2022-06-07 14:32:50'); /* Quality of Life Vendor */
-/* @teleloc 0xC6A9001C [74.070602 95.246101 42.005001] -0.057536 0.000000 0.000000 0.998344 */
+VALUES (0x7C6A96AB, 4100253, 0xC6A9001C, 79.3473, 95.8706, 42.005, -0.026848, 0, 0, 0.99964, False, '2022-06-08 17:05:40'); /* Darkbeat */
+/* @teleloc 0xC6A9001C [79.347298 95.870598 42.005001] -0.026848 0.000000 0.000000 0.999640 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A96AB, 4100253, 0xC6A9001C, 79.34731, 95.87056, 42.005, -0.026848, 0, 0, 0.99964, False, '2022-06-08 17:05:40'); /* Darkbeat */
-/* @teleloc 0xC6A9001C [79.347313 95.870560 42.005001] -0.026848 0.000000 0.000000 0.999640 */
+VALUES (0x7C6A96AC, 1910486, 0xC6A9001C, 74.10394, 95.4182, 42.005, -0.025346, 0, 0, -0.999679, False, '2022-06-09 10:14:21'); /* Quality of Life Vendor */
+/* @teleloc 0xC6A9001C [74.103943 95.418198 42.005001] -0.025346 0.000000 0.000000 -0.999679 */
