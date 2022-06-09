@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000311;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-04 19:45:56') /* Vendor */;
+VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-08 23:48:39') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000311,   1,         16) /* ItemType - Creature */
@@ -90,7 +90,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thank''s!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3000311, 2, 25703,  0, 93, 1, False) /* Create Dapper Suit (25703) for Wield */
+VALUES (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
+     , (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
+     , (3000311, 2, 25703,  0, 93, 1, False) /* Create Dapper Suit (25703) for Wield */
      , (3000311, 4, 30186, -1, 0, 0, False) /* Create Smithy's Crystal (30186) for Shop */
      , (3000311, 4, 30215, -1, 0, 0, False) /* Create Tinker's Crystal (30215) for Shop */
      , (3000311, 4, 30225, -1, 0, 0, False) /* Create Imbuer's Crystal (30225) for Shop */
@@ -165,13 +167,33 @@ VALUES (3000311, 2, 25703,  0, 93, 1, False) /* Create Dapper Suit (25703) for W
      , (3000311, 4, 21357, -1, 0, 0, False) /* Create Phantom Staff (21357) for Shop */
      , (3000311, 4, 21358, -1, 0, 0, False) /* Create Phantom Spear (21358) for Shop */
      , (3000311, 4, 41708, -1, 0, 0, False) /* Create Phantom Two Handed Spear (41708) for Shop */
-     , (3000311, 4, 21359, -1, 0, 0, False) /* Create Phantom Sword (21359) for Shop */;
+     , (3000311, 4, 21359, -1, 0, 0, False) /* Create Phantom Sword (21359) for Shop */
+     , (3000311, 4,  7563, -1, 0, 0, False) /* Create Hollow Axe (7563) for Shop */
+     , (3000311, 4,  7565, -1, 0, 0, False) /* Create Hollow Dagger (7565) for Shop */
+     , (3000311, 4,  7567, -1, 0, 0, False) /* Create Hollow Katar (7567) for Shop */
+     , (3000311, 4,  7569, -1, 0, 0, False) /* Create Hollow Mace (7569) for Shop */
+     , (3000311, 4,  7571, -1, 0, 0, False) /* Create Hollow Staff (7571) for Shop */
+     , (3000311, 4,  7573, -1, 0, 0, False) /* Create Hollow Spear (7573) for Shop */
+     , (3000311, 4,  7575, -1, 0, 0, False) /* Create Hollow Sword (7575) for Shop */
+     , (3000311, 4, 21961, -1, 0, 0, False) /* Create Hollow Bow (21961) for Shop */
+     , (3000311, 4, 30094, -1, 0, 0, False) /* Create Foolproof Aquamarine (30094) for Shop */
+     , (3000311, 4, 30095, -1, 0, 0, False) /* Create Foolproof Black Garnet (30095) for Shop */
+     , (3000311, 4, 30099, -1, 0, 0, False) /* Create Foolproof Imperial Topaz (30099) for Shop */
+     , (3000311, 4, 30100, -1, 0, 0, False) /* Create Foolproof Jet (30100) for Shop */
+     , (3000311, 4, 30097, -1, 0, 0, False) /* Create Foolproof Emerald (30097) for Shop */
+     , (3000311, 4, 30102, -1, 0, 0, False) /* Create Foolproof Red Garnet (30102) for Shop */
+     , (3000311, 4, 30104, -1, 0, 0, False) /* Create Foolproof White Sapphire (30104) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-04T12:46:57.7832242-07:00",
-  "ModifiedBy": "pourman",
+  "LastModified": "2022-06-08T14:06:33.3429889-05:00",
+  "ModifiedBy": "brickmeout",
   "Changelog": [
+    {
+      "created": "0001-01-01T00:00:00",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
     {
       "created": "0001-01-01T00:00:00",
       "author": "ACE.Adapter",
