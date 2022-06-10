@@ -1,23 +1,26 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4000226;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4000226, 'ace4000226-hellgateguardian', 10, '2022-06-08 15:57:27') /* Creature */;
+VALUES (4000226, 'ace4000226-darkbeat', 10, '2022-06-10 19:11:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4000226,   1,         16) /* ItemType - Creature */
-     , (4000226,   2,          8) /* CreatureType - Tusker */
-     , (4000226,   3,         20) /* PaletteTemplate - Silver */
+     , (4000226,   2,         31) /* CreatureType - Human */
      , (4000226,   6,         -1) /* ItemsCapacity */
      , (4000226,   7,         -1) /* ContainersCapacity */
+     , (4000226,   8,        120) /* Mass */
      , (4000226,  16,          1) /* ItemUseable - No */
      , (4000226,  25,        115) /* Level */
      , (4000226,  27,          0) /* ArmorType - None */
      , (4000226,  40,          2) /* CombatMode - Melee */
-     , (4000226,  68,          9) /* TargetingTactic - Random, TopDamager */
+     , (4000226,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (4000226,  72,          8) /* FriendType - Tusker */
      , (4000226,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4000226, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (4000226, 146,     125000) /* XpOverride */;
+     , (4000226, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
+     , (4000226, 113,          1) /* Gender - Male */
+     , (4000226, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (4000226, 146,     125000) /* XpOverride */
+     , (4000226, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4000226,   1, True ) /* Stuck */
@@ -61,18 +64,26 @@ VALUES (4000226,   1,       5) /* HeartbeatInterval */
      , (4000226, 151,       1) /* IgnoreShield */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4000226,   1, 'Hellgate Guardian') /* Name */;
+VALUES (4000226,   1, 'Darkbeat') /* Name */
+     , (4000226,   2, 'Stone Cold Killer') /* Title */
+     , (4000226,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4000226,   1,   33556836) /* Setup */
-     , (4000226,   2,  150994956) /* MotionTable */
-     , (4000226,   3,  536870929) /* SoundTable */
-     , (4000226,   4,  805306379) /* CombatTable */
-     , (4000226,   6,   67113007) /* PaletteBase */
+VALUES (4000226,   1,   33554433) /* Setup */
+     , (4000226,   2,  150994945) /* MotionTable */
+     , (4000226,   3,  536870913) /* SoundTable */
+     , (4000226,   4,  805306368) /* CombatTable */
+     , (4000226,   6,   67108990) /* PaletteBase */
      , (4000226,   7,  268436483) /* ClothingBase */
-     , (4000226,   8,  100667443) /* Icon */
-     , (4000226,  22,  872415271) /* PhysicsEffectTable */
-     , (4000226,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
+     , (4000226,   8,  100667446) /* Icon */
+     , (4000226,   9,   83890508) /* EyesTexture */
+     , (4000226,  10,   83890522) /* NoseTexture */
+     , (4000226,  11,   83890628) /* MouthTexture */
+     , (4000226,  15,   67116999) /* HairPalette */
+     , (4000226,  16,   67110063) /* EyesPalette */
+     , (4000226,  17,   67109559) /* SkinPalette */
+     , (4000226,  22,  872415236) /* PhysicsEffectTable */
+     , (4000226,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4000226,   1, 230, 0, 0) /* Strength */
@@ -183,18 +194,17 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4000226, 1, 4000205,  1, 0, 0, False) /* Create  (4000205) for Contain */
      , (4000226, 1, 4000205,  1, 0, 0, False) /* Create  (4000205) for Contain */
      , (4000226, 1, 4000205,  1, 0, 0, False) /* Create  (4000205) for Contain */
-     , (4000226, 9, 11692,  0, 0, 0.02, False) /* Create Little Green Seeds (11692) for ContainTreasure */
-     , (4000226, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (4000226, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
-     , (4000226, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (4000226, 9,  8147,  0, 0, 0.05, False) /* Create Tusker Head (8147) for ContainTreasure */
-     , (4000226, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (4000226, 9, 29204,  1, 0, 0.205, False) /* Create Tusker Spit (29204) for ContainTreasure */
-     , (4000226, 9,     0,  0, 0, 0.795, False) /* Create nothing for ContainTreasure */;
+     , (4000226, 2,  6046,  1, 93, 0.5, False) /* Create Amuli Coat (6046) for Wield */
+     , (4000226, 2,  6047,  1, 93, 0.762, False) /* Create Amuli Leggings (6047) for Wield */
+     , (4000226, 2,   107,  1, 93, 0, False) /* Create Sollerets (107) for Wield */
+     , (4000226, 2,    57,  1, 93, 0, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (4000226, 2, 30881,  1, 93, 0, False) /* Create Salvager's Helm (30881) for Wield */
+     , (4000226, 2, 24200,  1, 0, 0, False) /* Create Weeping Claw (24200) for Wield */
+     , (4000226, 2, 23356,  1, 0, 0, False) /* Create Sanguinary Aegis (23356) for Wield */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-08T08:57:02.7772495-07:00",
+  "LastModified": "2022-06-10T12:10:42.0997702-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [],
   "UserChangeSummary": "Updating Skills/AL",
