@@ -390,3 +390,7 @@ VALUES (0x701C9074, 42816, 0x01C90112, 94.7007, -166.62, -72.063, 0.995564, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C9075, 42159, 0x01C90101, 62.7523, -189.797, -72.0504, 0.699462, 0, 0, 0.71467, False, '2022-06-08 03:02:05'); /* Glenden Wood */
 /* @teleloc 0x01C90101 [62.752300 -189.796997 -72.050400] 0.699462 0.000000 0.000000 0.714670 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701C9076, 42815, 0x01C9010B, 76.357, -193.8471, -72.063, 0.512397, 0, 0, 0.858749, False, '2022-06-10 09:58:49'); /* Eastham Portal */
+/* @teleloc 0x01C9010B [76.357002 -193.847107 -72.063004] 0.512397 0.000000 0.000000 0.858749 */

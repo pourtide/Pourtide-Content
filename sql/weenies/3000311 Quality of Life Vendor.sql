@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000311;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-09 17:03:43') /* Vendor */;
+VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-10 16:54:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000311,   1,         16) /* ItemType - Creature */
@@ -49,8 +49,7 @@ VALUES (3000311,   1,   33554433) /* Setup */
      , (3000311,  11,   83890637) /* MouthTexture */
      , (3000311,  15,   67117076) /* HairPalette */
      , (3000311,  16,   67109564) /* EyesPalette */
-     , (3000311,  17,   67109560) /* SkinPalette */
-     , (3000311,  57,      20630) /* AlternateCurrency - Trade Note (250,000) */;
+     , (3000311,  17,   67109560) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (3000311,   1, 260, 0, 0) /* Strength */
@@ -91,7 +90,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thank''s!', NULL, NULL, NUL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
-     , (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
      , (3000311, 2, 25703,  0, 93, 1, False) /* Create Dapper Suit (25703) for Wield */
      , (3000311, 4, 30186, -1, 0, 0, False) /* Create Smithy's Crystal (30186) for Shop */
      , (3000311, 4, 30215, -1, 0, 0, False) /* Create Tinker's Crystal (30215) for Shop */
@@ -101,13 +99,6 @@ VALUES (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
      , (3000311, 4, 36564, -1, 0, 0, False) /* Create  (36564) for Shop */
      , (3000311, 4, 36567, -1, 0, 0, False) /* Create  (36567) for Shop */
      , (3000311, 4, 36565, -1, 0, 0, False) /* Create  (36565) for Shop */
-     , (3000311, 4, 36619, -1, 0, 0, False) /* Create Foolproof Aquamarine (36619) for Shop */
-     , (3000311, 4, 36624, -1, 0, 0, False) /* Create  (36624) for Shop */
-     , (3000311, 4, 36626, -1, 0, 0, False) /* Create  (36626) for Shop */
-     , (3000311, 4, 36625, -1, 0, 0, False) /* Create  (36625) for Shop */
-     , (3000311, 4, 36620, -1, 0, 0, False) /* Create  (36620) for Shop */
-     , (3000311, 4, 36628, -1, 0, 0, False) /* Create  (36628) for Shop */
-     , (3000311, 4, 36622, -1, 0, 0, False) /* Create  (36622) for Shop */
      , (3000311, 4, 36621, -1, 0, 0, False) /* Create  (36621) for Shop */
      , (3000311, 4, 36623, -1, 0, 0, False) /* Create  (36623) for Shop */
      , (3000311, 4, 36627, -1, 0, 0, False) /* Create  (36627) for Shop */
@@ -182,18 +173,14 @@ VALUES (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
      , (3000311, 4,  7571, -1, 0, 0, False) /* Create Hollow Staff (7571) for Shop */
      , (3000311, 4,  7573, -1, 0, 0, False) /* Create Hollow Spear (7573) for Shop */
      , (3000311, 4,  7575, -1, 0, 0, False) /* Create Hollow Sword (7575) for Shop */
-     , (3000311, 4, 21961, -1, 0, 0, False) /* Create Hollow Bow (21961) for Shop */;
+     , (3000311, 4, 21961, -1, 0, 0, False) /* Create Hollow Bow (21961) for Shop */
+     , (3000311, 4, 27669, -1, 0, 0, False) /* Create Tumerok Salted Meat (27669) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-09T12:03:10.5896524-05:00",
-  "ModifiedBy": "brickmeout",
+  "LastModified": "2022-06-10T09:55:34.9078542-07:00",
+  "ModifiedBy": "pourman",
   "Changelog": [
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    },
     {
       "created": "0001-01-01T00:00:00",
       "author": "ACE.Adapter",
