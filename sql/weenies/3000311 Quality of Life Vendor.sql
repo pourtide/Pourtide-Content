@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000311;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-10 17:44:30') /* Vendor */;
+VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-14 16:16:24') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000311,   1,         16) /* ItemType - Creature */
@@ -89,8 +89,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thank''s!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
-     , (3000311, 2, 25703,  0, 93, 1, False) /* Create Dapper Suit (25703) for Wield */
+VALUES (3000311, 2, 25703,  0, 93, 1, False) /* Create Dapper Suit (25703) for Wield */
      , (3000311, 4, 30186, -1, 0, 0, False) /* Create Smithy's Crystal (30186) for Shop */
      , (3000311, 4, 30215, -1, 0, 0, False) /* Create Tinker's Crystal (30215) for Shop */
      , (3000311, 4, 30225, -1, 0, 0, False) /* Create Imbuer's Crystal (30225) for Shop */
@@ -114,7 +113,7 @@ VALUES (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
      , (3000311, 4, 23356, -1, 0, 0, False) /* Create Sanguinary Aegis (23356) for Shop */
      , (3000311, 4, 21998, -1, 0, 0, False) /* Create Bundle of Deadly Chorizite Arrowheads (21998) for Shop */
      , (3000311, 4, 15856, -1, 0, 0, False) /* Create Encrusted Bloodstone Jewel (15856) for Shop */
-     , (3000311, 4, 29266, -1, 0, 0, False) /* Create Ciandra's Fortune (29266) for Shop */
+     , (3000311, 4, 5000101, -1, 0, 0, False) /* Create  (5000101) for Shop */
      , (3000311, 4, 29267, -1, 0, 0, False) /* Create Quick Learner (29267) for Shop */
      , (3000311, 4, 29268, -1, 0, 0, False) /* Create Might of the Seventh Mule (29268) for Shop */
      , (3000311, 4, 29269, -1, 0, 0, False) /* Create Critical Protection (29269) for Shop */
@@ -176,11 +175,12 @@ VALUES (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
      , (3000311, 4, 21961, -1, 0, 0, False) /* Create Hollow Bow (21961) for Shop */
      , (3000311, 4, 27669, -1, 0, 0, False) /* Create Tumerok Salted Meat (27669) for Shop */
      , (3000311, 4, 24179, -1, 0, 0, False) /* Create Heart of the Innocent (24179) for Shop */
-     , (3000311, 4, 41637, -1, 0, 0, False) /* Create Hollow Two Handed Spear (41637) for Shop */;
+     , (3000311, 4, 41637, -1, 0, 0, False) /* Create Hollow Two Handed Spear (41637) for Shop */
+     , (3000311, 4, 29266, -1, 0, 0, False) /* Create Ciandra's Fortune (29266) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-10T10:44:37.0608968-07:00",
+  "LastModified": "2022-06-14T09:17:05.904976-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [
     {
