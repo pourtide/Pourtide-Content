@@ -152,18 +152,6 @@ VALUES (0x75660029,  7321, 0x566001B9, 175.438, -49.9706, -0.063, -0.711498, 0, 
 /* @teleloc 0x566001B9 [175.438004 -49.970600 -0.063000] -0.711498 0.000000 0.000000 0.702688 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7566002A,  7242, 0x56600171, 119.896, -45.2901, -0.063, -0.010993, 0, 0, 0.99994, False, '2022-06-14 15:42:40'); /* Black Spawn Den */
-/* @teleloc 0x56600171 [119.896004 -45.290100 -0.063000] -0.010993 0.000000 0.000000 0.999940 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7566002B,  7244, 0x5660017E, 129.955, -55.4081, -0.063, -0.026888, 0, 0, 0.999638, False, '2022-06-14 15:43:06'); /* Black Spawn Den */
-/* @teleloc 0x5660017E [129.955002 -55.408100 -0.063000] -0.026888 0.000000 0.000000 0.999638 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7566002C,  7246, 0x56600166, 113.483, -39.9261, -0.063, 0.695284, 0, 0, 0.718735, False, '2022-06-14 15:43:36'); /* Black Spawn Den */
-/* @teleloc 0x56600166 [113.483002 -39.926102 -0.063000] 0.695284 0.000000 0.000000 0.718735 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7566002E, 5000102, 0x5660014F, 84.9981, -10.0798, -0.063, 0.705408, 0, 0, 0.708801, False, '2022-06-14 16:44:32'); /* Mosswart Nest  */
 /* @teleloc 0x5660014F [84.998100 -10.079800 -0.063000] 0.705408 0.000000 0.000000 0.708801 */
 
@@ -212,5 +200,9 @@ VALUES (0x75660039, 3000381, 0x56600193, 154.427, -31.0932, 0.005, -0.69417, 0, 
 /* @teleloc 0x56600193 [154.427002 -31.093201 0.005000] -0.694170 0.000000 0.000000 -0.719811 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7566003A, 4100253, 0x56600193, 154.3875, -30.00523, 0.005, -0.69417, 0, 0, -0.719811, False, '2022-06-15 13:26:42'); /* Darkbeat */
-/* @teleloc 0x56600193 [154.387497 -30.005230 0.005000] -0.694170 0.000000 0.000000 -0.719811 */
+VALUES (0x7566003A, 4100253, 0x56600193, 154.387, -30.0052, 0.005, -0.69417, 0, 0, -0.719811, False, '2022-06-15 13:26:42'); /* Darkbeat */
+/* @teleloc 0x56600193 [154.386993 -30.005199 0.005000] -0.694170 0.000000 0.000000 -0.719811 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7566003C,  7244, 0x56600170, 119.953, -44.4366, -0.063, 0.019689, 0, 0, -0.999806, False, '2022-06-15 16:18:42'); /* Black Spawn Den */
+/* @teleloc 0x56600170 [119.953003 -44.436600 -0.063000] 0.019689 0.000000 0.000000 -0.999806 */

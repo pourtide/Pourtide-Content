@@ -236,10 +236,6 @@ VALUES (0x701C9049,   419, 0x01C90228, 175.977, -29.2953, -6, -0.707107, 0, 0, -
 /* @teleloc 0x01C90228 [175.977005 -29.295300 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C904A,  1596, 0x01C90231, 80, -20, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x01C90231 [80.000000 -20.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C904B,   568, 0x01C90233, 80, -24.75, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x01C90233 [80.000000 -24.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
@@ -392,5 +388,9 @@ VALUES (0x701C9075, 42159, 0x01C90101, 62.7523, -189.797, -72.0504, 0.699462, 0,
 /* @teleloc 0x01C90101 [62.752300 -189.796997 -72.050400] 0.699462 0.000000 0.000000 0.714670 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9076, 42815, 0x01C9010B, 76.357, -193.8471, -72.063, 0.512397, 0, 0, 0.858749, False, '2022-06-10 09:58:49'); /* Eastham Portal */
-/* @teleloc 0x01C9010B [76.357002 -193.847107 -72.063004] 0.512397 0.000000 0.000000 0.858749 */
+VALUES (0x701C9076, 42815, 0x01C9010B, 76.357, -193.847, -72.063, 0.512397, 0, 0, 0.858749, False, '2022-06-10 09:58:49'); /* Eastham Portal */
+/* @teleloc 0x01C9010B [76.357002 -193.847000 -72.063004] 0.512397 0.000000 0.000000 0.858749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701C9077, 20919, 0x01C90231, 79.52422, -22.39826, -0.063, -0.999692, 0, 0, -0.024808, False, '2022-06-15 15:49:21'); /* Martine's Retreat */
+/* @teleloc 0x01C90231 [79.524223 -22.398260 -0.063000] -0.999692 0.000000 0.000000 -0.024808 */
