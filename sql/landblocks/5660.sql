@@ -9,10 +9,6 @@ VALUES (0x75660001,   278, 0x5660010C, 155.25, -70, -30, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x5660010C [155.250000 -70.000000 -30.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75660003, 20907, 0x5660010A, 156.992, -66.7427, -29.995, 0.921061, 0, 0, 0.389418, False, '2005-02-09 10:00:00'); /* Singularity Chest */
-/* @teleloc 0x5660010A [156.992004 -66.742699 -29.995001] 0.921061 0.000000 0.000000 0.389418 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75660004, 20955, 0x5660010A, 162.12, -73.3572, -29.0611, 0.183057, 0, 0, -0.983102,  True, '2005-02-09 10:00:00'); /* Gaerlan's Diary */
 /* @teleloc 0x5660010A [162.119995 -73.357201 -29.061100] 0.183057 0.000000 0.000000 -0.983102 */
 
@@ -176,5 +172,45 @@ VALUES (0x7566002F, 23618, 0x56600159, 97.1933, 2.09196, 0, 0.946406, 0, 0, 0.32
 /* @teleloc 0x56600159 [97.193298 2.091960 0.000000] 0.946406 0.000000 0.000000 0.322979 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75660030,  1595, 0x56600150, 84.20362, -20.11449, -0.063, -0.707538, 0, 0, -0.706675, False, '2022-06-14 19:24:49'); /* Abandoned Mine */
-/* @teleloc 0x56600150 [84.203621 -20.114491 -0.063000] -0.707538 0.000000 0.000000 -0.706675 */
+VALUES (0x75660030,  1595, 0x56600150, 84.2036, -20.1145, -0.063, -0.707538, 0, 0, -0.706675, False, '2022-06-14 19:24:49'); /* Abandoned Mine */
+/* @teleloc 0x56600150 [84.203598 -20.114500 -0.063000] -0.707538 0.000000 0.000000 -0.706675 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75660031,   400, 0x56600175, 133.832, -34.5193, 0.005, -0.998799, 0, 0, -0.048994, False, '2022-06-15 13:15:33'); /* Carsith the Weaponsmith */
+/* @teleloc 0x56600175 [133.832001 -34.519299 0.005000] -0.998799 0.000000 0.000000 -0.048994 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75660032, 53381, 0x56600175, 132.498, -34.5193, 0.005, -0.999712, 0, 0, -0.024011, False, '2022-06-15 13:15:40'); /* Professor of War Magic */
+/* @teleloc 0x56600175 [132.498001 -34.519299 0.005000] -0.999712 0.000000 0.000000 -0.024011 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75660033, 53382, 0x56600175, 130.557, -34.5193, 0.005, -0.999712, 0, 0, -0.024011, False, '2022-06-15 13:15:50'); /* Professor of Creature Magic */
+/* @teleloc 0x56600175 [130.557007 -34.519299 0.005000] -0.999712 0.000000 0.000000 -0.024011 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75660034, 53383, 0x56600175, 128.853, -34.5193, 0.005, -0.999712, 0, 0, -0.024011, False, '2022-06-15 13:15:56'); /* Professor of Item Magic */
+/* @teleloc 0x56600175 [128.852997 -34.519299 0.005000] -0.999712 0.000000 0.000000 -0.024011 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75660035, 53384, 0x56600175, 127.42, -34.3727, 0.005, -1, 0, 0, 0.000986, False, '2022-06-15 13:16:11'); /* Professor of Life Magic */
+/* @teleloc 0x56600175 [127.419998 -34.372700 0.005000] -1.000000 0.000000 0.000000 0.000986 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75660036, 53385, 0x56600175, 125.754, -32.7527, 0.005, -0.695282, 0, 0, 0.718737, False, '2022-06-15 13:16:27'); /* Professor of Void Magic */
+/* @teleloc 0x56600175 [125.753998 -32.752701 0.005000] -0.695282 0.000000 0.000000 0.718737 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75660037, 3000304, 0x56600193, 154.519, -33.6375, 0.005, -0.69417, 0, 0, -0.719811, False, '2022-06-15 13:24:56'); /* Fitness Instructor Anthony */
+/* @teleloc 0x56600193 [154.518997 -33.637501 0.005000] -0.694170 0.000000 0.000000 -0.719811 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75660038, 3000311, 0x56600193, 154.472, -32.3429, 0.005, -0.69417, 0, 0, -0.719811, False, '2022-06-15 13:25:08'); /* Quality of Life Vendor */
+/* @teleloc 0x56600193 [154.472000 -32.342899 0.005000] -0.694170 0.000000 0.000000 -0.719811 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75660039, 3000381, 0x56600193, 154.427, -31.0932, 0.005, -0.69417, 0, 0, -0.719811, False, '2022-06-15 13:25:49'); /* Pourman Messenger */
+/* @teleloc 0x56600193 [154.427002 -31.093201 0.005000] -0.694170 0.000000 0.000000 -0.719811 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7566003A, 4100253, 0x56600193, 154.3875, -30.00523, 0.005, -0.69417, 0, 0, -0.719811, False, '2022-06-15 13:26:42'); /* Darkbeat */
+/* @teleloc 0x56600193 [154.387497 -30.005230 0.005000] -0.694170 0.000000 0.000000 -0.719811 */
