@@ -140,18 +140,6 @@ VALUES (0x75660026,  4453, 0x566001EB, 150, -90, 12.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x566001EB [150.000000 -90.000000 12.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75660027,  7317, 0x566001AA, 159.918, -55.9476, -0.063, -0.020609, 0, 0, 0.999788, False, '2022-06-14 15:36:51'); /* Hills Citadel Portal */
-/* @teleloc 0x566001AA [159.917999 -55.947601 -0.063000] -0.020609 0.000000 0.000000 0.999788 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75660028,  7319, 0x566001B8, 175.776, -39.9989, -0.063, -0.697286, 0, 0, 0.716793, False, '2022-06-14 15:39:12'); /* Ridge Citadel Portal */
-/* @teleloc 0x566001B8 [175.776001 -39.998901 -0.063000] -0.697286 0.000000 0.000000 0.716793 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75660029,  7321, 0x566001B9, 175.438, -49.9706, -0.063, -0.711498, 0, 0, 0.702688, False, '2022-06-14 15:39:55'); /* Wilderness Citadel Portal */
-/* @teleloc 0x566001B9 [175.438004 -49.970600 -0.063000] -0.711498 0.000000 0.000000 0.702688 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7566002E, 5000102, 0x5660014F, 84.9981, -10.0798, -0.063, 0.705408, 0, 0, 0.708801, False, '2022-06-14 16:44:32'); /* Mosswart Nest  */
 /* @teleloc 0x5660014F [84.998100 -10.079800 -0.063000] 0.705408 0.000000 0.000000 0.708801 */
 
@@ -206,3 +194,7 @@ VALUES (0x7566003A, 4100253, 0x56600193, 154.387, -30.0052, 0.005, -0.69417, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7566003C,  7244, 0x56600170, 119.953, -44.4366, -0.063, 0.019689, 0, 0, -0.999806, False, '2022-06-15 16:18:42'); /* Black Spawn Den */
 /* @teleloc 0x56600170 [119.953003 -44.436600 -0.063000] 0.019689 0.000000 0.000000 -0.999806 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7566003D,  7317, 0x5660017C, 129.8871, -54.7381, -0.063, 0.0339, 0, 0, -0.999425, False, '2022-06-15 18:40:37'); /* Hills Citadel Portal */
+/* @teleloc 0x5660017C [129.887100 -54.738098 -0.063000] 0.033900 0.000000 0.000000 -0.999425 */
