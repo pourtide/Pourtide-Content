@@ -192,9 +192,13 @@ VALUES (0x7566003A, 4100253, 0x56600193, 154.387, -30.0052, 0.005, -0.69417, 0, 
 /* @teleloc 0x56600193 [154.386993 -30.005199 0.005000] -0.694170 0.000000 0.000000 -0.719811 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7566003C,  7244, 0x56600170, 119.953, -44.4366, -0.063, 0.019689, 0, 0, -0.999806, False, '2022-06-15 16:18:42'); /* Black Spawn Den */
+VALUES (0x7566003C,  7244, 0x56600170, 119.953, -44.4366, -0.063, 0.019689, 0, 0, -0.999806, False, '2022-06-15 16:18:42'); /* BSD Level 1 */
 /* @teleloc 0x56600170 [119.953003 -44.436600 -0.063000] 0.019689 0.000000 0.000000 -0.999806 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7566003D,  7317, 0x5660017C, 129.8871, -54.7381, -0.063, 0.0339, 0, 0, -0.999425, False, '2022-06-15 18:40:37'); /* Hills Citadel Portal */
-/* @teleloc 0x5660017C [129.887100 -54.738098 -0.063000] 0.033900 0.000000 0.000000 -0.999425 */
+VALUES (0x7566003D,  7317, 0x5660017C, 129.887, -54.7381, -0.063, 0.0339, 0, 0, -0.999425, False, '2022-06-15 18:40:37'); /* Lugian Citadel Level 1 */
+/* @teleloc 0x5660017C [129.886993 -54.738098 -0.063000] 0.033900 0.000000 0.000000 -0.999425 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7566003E,  5772, 0x5660018D, 150.1157, -9.96303, 0.005, -0.012647, 0, 0, -0.99992, False, '2022-06-16 07:55:33'); /* Town Crier */
+/* @teleloc 0x5660018D [150.115707 -9.963030 0.005000] -0.012647 0.000000 0.000000 -0.999920 */
