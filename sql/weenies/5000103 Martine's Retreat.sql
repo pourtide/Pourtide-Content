@@ -1,12 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5000103;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5000103, 'ace5000103-martinesretreat', 7, '2022-06-15 02:03:31') /* Portal */;
+VALUES (5000103, 'ace5000103-martinesretreat', 7, '2022-06-18 20:51:58') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5000103,   1,      65536) /* ItemType - Portal */
      , (5000103,  16,         32) /* ItemUseable - Remote */
-     , (5000103,  86,         15) /* MinLevel */
      , (5000103,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (5000103, 111,          1) /* PortalBitmask - Unrestricted */
      , (5000103, 133,          4) /* ShowableOnRadar - ShowAlways */;
@@ -39,7 +38,7 @@ VALUES (5000103, 2, 1449132369, 89.22878, -9.679675, 0.005, -0.69091, 0, 0, 0.72
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-14T19:04:39.3538851-07:00",
+  "LastModified": "2022-06-18T13:50:50.4475171-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [],
   "UserChangeSummary": "Updated to include PORTAL_SHOW_DESTINATION_BOOL.",

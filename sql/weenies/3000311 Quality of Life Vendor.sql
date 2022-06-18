@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000311;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-17 22:05:11') /* Vendor */;
+VALUES (3000311, 'ace3000311-qualityoflifevendor', 12, '2022-06-18 20:51:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000311,   1,         16) /* ItemType - Creature */
@@ -183,13 +183,23 @@ VALUES (3000311, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
      , (3000311, 4,  7573, -1, 0, 0, False) /* Create Hollow Spear (7573) for Shop */
      , (3000311, 4,  7575, -1, 0, 0, False) /* Create Hollow Sword (7575) for Shop */
      , (3000311, 4, 21961, -1, 0, 0, False) /* Create Hollow Bow (21961) for Shop */
-     , (3000311, 4, 4100252, -1, 0, 0, False) /* Create  (4100252) for Shop */;
+     , (3000311, 4, 4100252, -1, 0, 0, False) /* Create  (4100252) for Shop */
+     , (3000311, 4, 41637, -1, 0, 0, False) /* Create Hollow Two Handed Spear (41637) for Shop */
+     , (3000311, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
+     , (3000311, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
+     , (3000311, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for Shop */
+     , (3000311, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-17T17:06:14.8647877-05:00",
-  "ModifiedBy": "brickmeout",
+  "LastModified": "2022-06-18T13:52:31.2035842-07:00",
+  "ModifiedBy": "pourman",
   "Changelog": [
+    {
+      "created": "0001-01-01T00:00:00",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
     {
       "created": "0001-01-01T00:00:00",
       "author": "ACE.Adapter",
