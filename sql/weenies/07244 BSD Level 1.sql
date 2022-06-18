@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7244;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7244, 'portalblackdrudgespawngha', 7, '2022-06-16 14:45:32') /* Portal */;
+VALUES (7244, 'portalblackdrudgespawngha', 7, '2022-06-17 21:56:50') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7244,   1,      65536) /* ItemType - Portal */
      , (7244,  16,         32) /* ItemUseable - Remote */
      , (7244,  86,         20) /* MinLevel */
      , (7244,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (7244, 111,        312) /* PortalBitmask - NoNPK, NoSummon, NoRecall, NoVitae */
+     , (7244, 111,         56) /* PortalBitmask - NoNPK, NoSummon, NoRecall */
      , (7244, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,7 +39,7 @@ VALUES (7244, 2, 17040245, 100, -210, 0, 0.707107, 0, 0, -0.707107) /* Destinati
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-16T07:46:24.0213929-07:00",
+  "LastModified": "2022-06-17T14:54:14.3202334-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [
     {

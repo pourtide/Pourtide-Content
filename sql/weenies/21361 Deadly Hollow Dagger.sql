@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21361;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (21361, 'daggerhollownew', 6, '2022-05-30 05:09:08') /* MeleeWeapon */;
+VALUES (21361, 'daggerhollownew', 6, '2022-06-14 18:14:57') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21361,   1,          1) /* ItemType - MeleeWeapon */
@@ -69,8 +69,8 @@ VALUES (21361,   1,   33556650) /* Setup */
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-05-29T22:06:38.5273232-07:00",
-  "ModifiedBy": "pourman",
+  "LastModified": "2022-06-14T13:13:08.193929-05:00",
+  "ModifiedBy": "brickmeout",
   "Changelog": [
     {
       "created": "0001-01-01T00:00:00",
