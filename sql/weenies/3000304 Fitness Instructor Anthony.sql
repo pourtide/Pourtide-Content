@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3000304;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3000304, 'ace3000304-fitnessinstructoranthony', 12, '2022-06-22 04:37:26') /* Vendor */;
+VALUES (3000304, 'ace3000304-fitnessinstructoranthony', 12, '2022-06-25 03:36:46') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3000304,   1,         16) /* ItemType - Creature */
@@ -46,8 +46,8 @@ VALUES (3000304,   1,       5) /* HeartbeatInterval */
      , (3000304,  17, 0.4000000059604645) /* ArmorModVsFire */
      , (3000304,  18,       1) /* ArmorModVsAcid */
      , (3000304,  19, 0.6000000238418579) /* ArmorModVsElectric */
-     , (3000304,  37, 0.8999999761581421) /* BuyPrice */
-     , (3000304,  38, 1.350000023841858) /* SellPrice */
+     , (3000304,  37,       1) /* BuyPrice */
+     , (3000304,  38,       1) /* SellPrice */
      , (3000304,  54,       3) /* UseRadius */
      , (3000304,  64,       1) /* ResistSlash */
      , (3000304,  65,       1) /* ResistPierce */
@@ -191,26 +191,54 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I absolutely refuse to be like most human-beings in our society (a common man), because I most certainly am a leader, a visionary, a pioneer, an intellect, an explorer, a researcher, a lover, a doer, a go getter, a winner, a human-being who is grateful, positive & powerful, and much, much, much more!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3000304, 4, 45958, -1, 0, 0, False) /* Create Seasoned Explorer Baton (45958) for Shop */
-     , (3000304, 4, 45954, -1, 0, 0, False) /* Create  (45954) for Shop */
-     , (3000304, 4, 45932, -1, 0, 0, False) /* Create  (45932) for Shop */
-     , (3000304, 4, 45906, -1, 0, 0, False) /* Create Seasoned Explorer Compound Bow (45906) for Shop */
-     , (3000304, 4, 45908, -1, 0, 0, False) /* Create  (45908) for Shop */
-     , (3000304, 4, 45912, -1, 0, 0, False) /* Create  (45912) for Shop */
-     , (3000304, 4, 45930, -1, 0, 0, False) /* Create  (45930) for Shop */
-     , (3000304, 4, 45934, -1, 0, 0, False) /* Create  (45934) for Shop */
-     , (3000304, 4, 45944, -1, 0, 0, False) /* Create  (45944) for Shop */
-     , (3000304, 4, 45948, -1, 0, 0, False) /* Create  (45948) for Shop */
-     , (3000304, 4, 45956, -1, 0, 0, False) /* Create Seasoned Explorer Nether Staff (45956) for Shop */
-     , (3000304, 4, 45973, -1, 0, 0, False) /* Create  (45973) for Shop */
-     , (3000304, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
+VALUES (3000304, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
      , (3000304, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
      , (3000304, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for Shop */
-     , (3000304, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for Shop */;
+     , (3000304, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for Shop */
+     , (3000304, 4,  6597, -1, 0, 0, False) /* Create Greater Koujia Shadow Breastplate (6597) for Shop */
+     , (3000304, 4,  6612, -1, 0, 0, False) /* Create Greater Koujia Shadow Leggings (6612) for Shop */
+     , (3000304, 4,  6618, -1, 0, 0, False) /* Create Greater Koujia Shadow Sleeves (6618) for Shop */
+     , (3000304, 4,  6594, -1, 0, 0, False) /* Create Greater Celdon Shadow Breastplate (6594) for Shop */
+     , (3000304, 4,  6609, -1, 0, 0, False) /* Create Greater Celdon Shadow Leggings (6609) for Shop */
+     , (3000304, 4,  6603, -1, 0, 0, False) /* Create Greater Celdon Shadow Girth (6603) for Shop */
+     , (3000304, 4,  6615, -1, 0, 0, False) /* Create Greater Celdon Shadow Sleeves (6615) for Shop */
+     , (3000304, 4,  6600, -1, 0, 0, False) /* Create Greater Amuli Shadow Coat (6600) for Shop */
+     , (3000304, 4,  6606, -1, 0, 0, False) /* Create Greater Amuli Shadow Leggings (6606) for Shop */
+     , (3000304, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
+     , (3000304, 4,    74, -1, 0, 0, False) /* Create Heaume (74) for Shop */
+     , (3000304, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
+     , (3000304, 4, 15447, -1, 0, 0, False) /* Create Deadly Hollow Axe (15447) for Shop */
+     , (3000304, 4, 15448, -1, 0, 0, False) /* Create Deadly Hollow Mace (15448) for Shop */
+     , (3000304, 4, 15449, -1, 0, 0, False) /* Create Deadly Hollow Spear (15449) for Shop */
+     , (3000304, 4, 15450, -1, 0, 0, False) /* Create Deadly Hollow Sword (15450) for Shop */
+     , (3000304, 4, 21360, -1, 0, 0, False) /* Create Deadly Hollow Katar (21360) for Shop */
+     , (3000304, 4, 21361, -1, 0, 0, False) /* Create Deadly Hollow Dagger (21361) for Shop */
+     , (3000304, 4, 21362, -1, 0, 0, False) /* Create Deadly Hollow Staff (21362) for Shop */
+     , (3000304, 4, 21961, -1, 0, 0, False) /* Create Hollow Bow (21961) for Shop */
+     , (3000304, 4, 21344, -1, 0, 0, False) /* Create Chorizite Fletching Tool (21344) for Shop */
+     , (3000304, 4, 22000, -1, 0, 0, False) /* Create Wrapped Bundle of Deadly Chorizite Arrowheads (22000) for Shop */
+     , (3000304, 4, 24207, -1, 0, 0, False) /* Create Weeping Wand (24207) for Shop */
+     , (3000304, 4, 21353, -1, 0, 0, False) /* Create Phantom Axe (21353) for Shop */
+     , (3000304, 4, 21354, -1, 0, 0, False) /* Create Phantom Dagger (21354) for Shop */
+     , (3000304, 4, 21355, -1, 0, 0, False) /* Create Phantom Katar (21355) for Shop */
+     , (3000304, 4, 21356, -1, 0, 0, False) /* Create Phantom Mace (21356) for Shop */
+     , (3000304, 4, 21357, -1, 0, 0, False) /* Create Phantom Staff (21357) for Shop */
+     , (3000304, 4, 21358, -1, 0, 0, False) /* Create Phantom Spear (21358) for Shop */
+     , (3000304, 4, 21359, -1, 0, 0, False) /* Create Phantom Sword (21359) for Shop */
+     , (3000304, 4, 23356, -1, 0, 0, False) /* Create Sanguinary Aegis (23356) for Shop */
+     , (3000304, 4, 21964, -1, 0, 0, False) /* Create Phantom Bow (21964) for Shop */
+     , (3000304, 4, 24198, -1, 0, 0, False) /* Create Weeping Axe (24198) for Shop */
+     , (3000304, 4, 24199, -1, 0, 0, False) /* Create Weeping Bow (24199) for Shop */
+     , (3000304, 4, 24200, -1, 0, 0, False) /* Create Weeping Claw (24200) for Shop */
+     , (3000304, 4, 24201, -1, 0, 0, False) /* Create Weeping Crossbow (24201) for Shop */
+     , (3000304, 4, 24202, -1, 0, 0, False) /* Create Weeping Dagger (24202) for Shop */
+     , (3000304, 4, 24203, -1, 0, 0, False) /* Create Weeping Mace (24203) for Shop */
+     , (3000304, 4, 24205, -1, 0, 0, False) /* Create Weeping Staff (24205) for Shop */
+     , (3000304, 4, 24206, -1, 0, 0, False) /* Create Weeping Sword (24206) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-06-21T21:38:41.6716878-07:00",
+  "LastModified": "2022-06-24T20:37:45.9237801-07:00",
   "ModifiedBy": "pourman",
   "Changelog": [
     {
