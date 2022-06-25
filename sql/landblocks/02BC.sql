@@ -199,7 +199,7 @@ VALUES (0x702BC027, 5000103, 0x02BC0134, 82.4453, 2.68964, -0.063, 0.934836, 0, 
 /* @teleloc 0x02BC0134 [82.445297 2.689640 -0.063000] 0.934836 0.000000 0.000000 -0.355081 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702BC028, 53381, 0x02BC0147, 115.554, -46.3418, 0.004999995, 0.1238, 0, 0, 0.992307, False, '2022-06-24 21:44:03'); /* Professor of War Magic */
+VALUES (0x702BC028, 53381, 0x02BC0147, 115.554, -46.3418, 0.005, 0.1238, 0, 0, 0.992307, False, '2022-06-24 21:44:03'); /* Professor of War Magic */
 /* @teleloc 0x02BC0147 [115.554001 -46.341801 0.005000] 0.123800 0.000000 0.000000 0.992307 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -213,3 +213,7 @@ VALUES (0x702BC02A, 53383, 0x02BC0147, 118.692, -46.8323, 0.005, 0.0740509, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BC02B, 53384, 0x02BC0147, 119.825, -47.0014, 0.005, 0.0740509, 0, 0, 0.997254, False, '2022-06-24 21:44:19'); /* Professor of Life Magic */
 /* @teleloc 0x02BC0147 [119.824997 -47.001400 0.005000] 0.074051 0.000000 0.000000 0.997254 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702BC02C,  2249, 0x02BC0144, 111.32989, -45.795757, 0.004999995, 0.008621309, 0, 0, -0.9999628, False, '2022-06-24 22:46:57'); /* Master Shoyanen Kenchu the Archmage */
+/* @teleloc 0x02BC0144 [111.329887 -45.795757 0.005000] 0.008621 0.000000 0.000000 -0.999963 */
